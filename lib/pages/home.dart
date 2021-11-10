@@ -14,16 +14,9 @@ class _HomeState extends State<Home> {
   late String _userTask;
   List taskList = [];
 
-  // void initFirebase() async {
-  //   WidgetsFlutterBinding.ensureInitialized();
-  //   await Firebase.initializeApp();
-  // }
-
   @override
   void initState() {
     super.initState();
-
-    // initFirebase();
 
     taskList.addAll([]);
   }
